@@ -10,7 +10,7 @@ every insertion and deletion, then we can guarantee an upper bound of O(Logn) fo
 O(Logn) where n is the number of nodes in the tree.
 
 ### Insertion
-To make sure that the given tree remains AVL after every insertion, we must augment the standard BST insert operation to perform some re-balancing
+To make sure that the given tree remains AVL after every insertion, we must augment the standard BST insert operation to perform some re-balancing.
 * Left Left Case
 ```
 T1, T2, T3 and T4 are subtrees.
